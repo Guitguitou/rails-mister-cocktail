@@ -1,5 +1,9 @@
-<div class="container text-align">
-<h1>Choose a cocktail</h1>
+<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('https://kitt.lewagon.com/placeholder/cities/berlin');">
+  <div class="banner-content">
+    <h1>Choose a cocktail</h1>
+    <a class="btn btn-primary btn-lg">Drink</a>
+  </div>
+</div>
 
 <% @cocktails.each do |cocktail| %>
 <ul>
@@ -11,4 +15,4 @@
 <% end %>
 
 <%= link_to 'Create a new cocktail', new_cocktail_path %>
-</div>
+
